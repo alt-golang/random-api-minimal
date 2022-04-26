@@ -1,0 +1,10 @@
+{
+  "logging": {
+    "format": "json",
+    "level": {
+      "/": "info",
+      "@alt-javascript/random-api-minimal" : "verbose"
+    }
+  }
+}
+

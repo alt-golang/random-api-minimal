@@ -1,0 +1,23 @@
+{
+  "server": {
+    "port": 8081,
+    "context": "/",
+    "mode" : "release"
+  },
+  "random" : {
+    "number" : {
+      "maximum" : 5
+    }
+  },
+  "logging" : {
+    "format" : "json",
+    "level": {
+      "/" : "trace"
+    },
+    "test" : {
+      "fixtures" : {
+        "quiet" : false
+      }
+    }
+  }
+}

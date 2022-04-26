@@ -1,0 +1,22 @@
+{
+  "aws": {
+    "region" : "ap-southeast-2"
+  },
+  "server": {
+    "port": 80,
+    "context": "/",
+    "mode" : "release"
+  },
+  "random": {
+    "number": {
+      "maximum": 9
+    }
+  },
+  "logging": {
+    "format": "json",
+    "level": {
+      "/": "error"
+    }
+  }
+}
+
